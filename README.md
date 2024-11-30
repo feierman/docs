@@ -35,4 +35,4 @@
 
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/你的用户名/个人技术笔记.git
+   git@github.com:feierman/docs.git
