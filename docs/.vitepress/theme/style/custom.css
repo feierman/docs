@@ -1,0 +1,152 @@
+
+
+/* 整体容器样式 */
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* 页面标题样式 */
+.page-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    background: linear-gradient(120deg, var(--vp-c-brand), var(--vp-c-brand-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem 0;
+}
+
+/* 卡片网格样式 */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+卡片样式
+.custom-block {
+    background: var(--vp-c-bg-soft);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid var(--vp-c-divider-light);
+}
+
+.custom-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 链接样式 */
+.page-container a,
+.custom-block a,
+.resources a {
+    text-decoration: none !important;
+    color: var(--vp-c-brand);
+    transition: color 0.2s;
+}
+
+.page-container a:hover,
+.custom-block a:hover,
+.resources a:hover {
+    color: var(--vp-c-brand-light);
+    text-decoration: none !important;
+}
+
+/* 标题样式 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+    border: none !important;
+    margin-top: 2rem;
+}
+
+/* 学习路线样式 */
+.learning-path {
+    background: var(--vp-c-bg-soft);
+    padding: 2rem;
+    border-radius: 16px;
+    margin: 3rem 0;
+    border: 1px solid var(--vp-c-divider-light);
+}
+
+/* 推荐资源样式 */
+.resources {
+    background: var(--vp-c-bg-soft);
+    padding: 2rem;
+    border-radius: 16px;
+    margin: 2rem 0;
+    border: 1px solid var(--vp-c-divider-light);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+}
+
+/* 移除分组样式和调整间距 */
+.VPSidebarItem {
+    padding: 2px 0 !important;
+    /* 减小项目间的垂直间距 */
+}
+
+/* 移除分组标题的特殊样式 */
+.VPSidebarGroup .title {
+    font-size: 14px !important;
+    /* 与普通项目保持一致的字体大小 */
+    font-weight: normal !important;
+    margin: 2px 0 !important;
+    /* 减小标题的边距 */
+    color: var(--vp-c-text-2) !important;
+    /* 使用与普通项目相似的颜色 */
+    padding-bottom: 0 !important;
+}
+
+/* 调整缩进和对齐 */
+.VPSidebarItem.level-1 {
+    padding-left: 12px !important;
+    /* 调整子项的缩进 */
+}
+
+/* 移除分组的额外间距 */
+.VPSidebarGroup {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 统一文字样式 */
+.VPSidebarItem .text {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+}
+
+/* 移除 group 元素之间的边框线 */
+.group+.group[data-v-8b980502] {
+    border-top: none !important;
+    padding-top: 0 !important;
+    /* 移除额外的内边距 */
+}
+
+/* 以防类似的其他元素也有边框 */
+.group {
+    border: none !important;
+    padding-top: 0 !important;
+}
+
