@@ -1,4 +1,16 @@
+/* 全局链接样式 */
+:root {
+    --vp-c-brand: #0366d6;
+    --vp-c-brand-light: #0056b3;
+}
 
+.vp-doc a{
+    text-decoration: none !important;
+}
+
+.vp-doc a:hover{
+    text-decoration: none !important;
+}
 
 /* 整体容器样式 */
 .page-container {
@@ -26,8 +38,7 @@
     margin: 2rem 0;
 }
 
-卡片样式
-.custom-block {
+卡片样式 .custom-block {
     background: var(--vp-c-bg-soft);
     border-radius: 16px;
     padding: 1.5rem;
@@ -149,4 +160,3 @@
     border: none !important;
     padding-top: 0 !important;
 }
-
