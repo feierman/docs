@@ -61,8 +61,8 @@ export default defineConfig({
                         { text: "5 Canvas变换", link: "/docs-notes/frontend/html/Advanced/draw/1.6.md" },
                         { text: "6 高级绘图", link: "/docs-notes/frontend/html/Advanced/draw/1.7.md" },
                         { text: "7 图形阴影", link: "/docs-notes/frontend/html/Advanced/draw/1.8.md" },
-                        { text: "8 绘制图像", link: "/docs-notes/frontend/html/Advanced/drawImage/1.1.md" }
-
+                        { text: "8 绘制图像", link: "/docs-notes/frontend/html/Advanced/drawImage/1.1.md" },
+                        { text: "9 绘制文字", link: "/docs-notes/frontend/html/Advanced/drawImage/1.2.md" }
                     ]
                 }
             ]

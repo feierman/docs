@@ -1,15 +1,4 @@
 
-# HTML5 基础与进阶
-
-## HTML 基础
-
-
-- **引用**：`<blockquote>`  
-```html
-<blockquote>
-  引用文本
-</blockquote>
-```
 ---
 ## 2.影音图片相关标签
 - **图片标签**：`<img>`  `picture`
