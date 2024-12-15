@@ -165,7 +165,9 @@ li{
         <li>
             <a href="/docs-notes/frontend/html/1.menu">HTML5 指南</a>
         </li>
-        <li>CSS3 布局与动画</li>
+        <li>
+            <a href="/docs-notes/frontend/css/1.menu">CSS3 指南</a>
+        </li>
         <li>JavaScript 核心概念</li>
         <li>ES6+ 新特性</li>
       </ul>
